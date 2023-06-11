@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class CotactModel extends Model
 {
     use HasFactory;
-    public $fillable = ['name', 'email', 'subject', 'message', 'phone'];
+    public $fillable = ['name', 'email', 'subject', 'message', 'tel'];
 }

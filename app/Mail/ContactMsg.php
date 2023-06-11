@@ -26,7 +26,7 @@ class ContactMsg extends Mailable
            'email' => $this->contactData['email'],
            'subject' => $this->contactData['subject'],
            'message' => $this->contactData['message'],
-           'phone' => $this->contactData['phone'],
+           'tel' => $this->contactData['tel'],
        ])
        ->subject('New Contact Message');
    }
